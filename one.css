@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Type Wheel";
+    src: url("fonts/TypeWheel.ttf"), format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "sweet purple";
+    src: url("fonts/sweet purple.ttf"), format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Times";
+    src: url("fonts/TIMESS__.ttf"), format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.summary-container{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.project-summary{
+    background-color: #eeeeee;
+    width: 100%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin:  auto;
+    font-family:Arial, sans-serif;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 2px 1px #afafaf;
+}
+
+.project-summary title{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.summ{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    
+}
+
+.summ #role{
+    background-color: rgb(218, 160, 160);
+}
+
+.summ #proj-type {
+    background-color: #b5d6ec;
+}
+.summ #timeline {
+    background-color: #e5f1b7;
+}
+.summ #tools {
+    background-color: #eabbee;
+}
+.summ #languages {
+    background-color: #ecc299;
+}
+
+.summary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-summary img{
+    width: 100%;
+
+}
+
+div .overview_container {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+div {
+    background: none;
+    width: 50%;
+    display: inline=flex;
+    margin: 0 auto;
+    color: black;
+    padding: 15px;
+    margin: 5px auto;
+}
+
+div:overview_header {
+    background: white;
+}

@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "Type Wheel";
+    src: url("fonts/TypeWheel.ttf"), format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "sweet purple";
+    src: url("fonts/sweet purple.ttf"), format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Times";
+    src: url("fonts/TIMESS__.ttf"), format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.nav {
+    background-color:#c2a3eb;
+    overflow: hidden;
+    font-family: 'Times';
+    border-radius: 40px;
+}
+
+.nav a {
+    float: left;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav a:hover {
+    background-color: #dcd9e0;
+    color:black;
+    border-radius: 250px 50px 250px 50px;
+}
+
+.nav a.split:hover {
+    background-color: #dfd7e9;
+    color: black;
+}
+
+
+.nav a.split {
+    float: right;
+    background-color: #c2a3eb;
+    color: rgb(0, 0, 0);
+}
+
+.footnote {
+    background-color: #c2a3eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-container {
+    display: flex;
+    column-gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.foot-img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+
+.foot-text {
+    font-family: 'sweet purple';
+    font-size: 32px;
+    display: inline-block;
+}
+
+.foot-text i{
+    font-size: 20px;
+
+}
+
+.foot-text p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.foot-container p i{
+    display: flex;
+    font-size: 12px;}

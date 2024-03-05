@@ -9,61 +9,86 @@
 </head>
 <body>
     <!-- NAVIGATION -->
-            <nav class="bar white">
-                <img src="" alt="">
-                <p>cake's bakery</p>
-                <a href="#about" class="button bar-item">About</a>
-                <a href="#work" class="button bar-item">Portfolio</a>
-            </nav>
+            <div class="nav">
+                <a href="#home">caitlin phomsopha</a>
+                <a href="#resume" class="split">resume</a>
+                <a href="#about" class="split">about</a>
+                <a href="play.html" class="split">play</a>
+                <a href="#work" class="split">work</a>
+            </div>
 
     <!-- END OF NAVIGATION -->
 
     <!-- INTRO -->
     <section>
-        <div id="intro" class="banner">
-            <img class="profile" src="" >
-            <h1>Caitlin Phomsopha</h1>
+        <div class="header">
+            <h1>{ Caitlin Phomsopha }</h1>
+            <span id="jobs"></span>
         </div>
     </section>
     <!-- END OF INTRO -->
 
     <!-- LINKS TO WORKS/PROJECTS -->
     <section>
-        <p>TEST</p>
-        <p>TEST</p>
-        <p>TEST</p>
-        <p>TEST</p>
-        <p>TEST</p>
-        <p>TEST</p>
-        <p>TEST</p>
-        <p>TEST</p>
-        <p>TEST</p>
-        <p>TEST</p>
-        <p>TEST</p>
+        <div id="portfolio">
+            <div class="container">
+                <h2 class="subtitle">Selected Works</h2>
+                <div class="work-list">
+                    <div class="project-1">
+                        <img src="Tba.png">
+                        <div class="layer">
+                            <h3>Absolute Media App Upgrade</h3>
+                            <p>The Nuoc Mamis team tackle on upgrading the old system for a printing company.
+                                <br>
+                                <br> UI, Front-End Development </br>
+                            </p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-2">
+                        <img src="Tba.png">
+                        <div class="layer">
+                            <h3>Project #2</h3>
+                            <p>Project Description/Summary goes here</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-3">
+                        <img src="Tba.png">
+                        <div class="layer">
+                            <h3>Project #3</h3>
+                            <p>Project Description/Summary goes here</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- END OF LINKS TO WORKS/PROJECTS -->
 
     <!-- FOOTER -->
-    <footer class="container padding center black xlarge">
-        <a href="#"><i class="fa fa-instagram"></i></a>
-        <a href="#"><i class="fa fa-pinterest"></i></a>
-        <a href="#"><i class="fa fa-discord"></i></a>
-        <a href="#"><i class="fa fa-resume"></i></a>
-        <a href="#"><i class="fa fa-linkedin"></i></a>
-        <p class="medium">
-        Designed and coded by Caitlin Phomsopha, 2024
-        </p>
+    <footer class="footnote">
+        <div class="foot-container">
+            <div class="foot-img">
+                <img src="me.jpg" alt="much love, cake">
+            </div>
+            <div class="foot-text">
+                <h4>Let's Connect!</h4>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-discord"></i>
+                <p>
+                    <i class="fa-solid fa-envelope"> cphomsopha@gmail.com</i>
+                    <br> 
+                    Designed and coded with love by Caitlin Phomsopha, 2024
+                </p>
+            </div>
+        </div>
     </footer>
     <!-- END OF FOOTER -->
 </body>
-<script>
-    window.onscroll = function() {scrollFunction()};
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            document.getElementById("bar white").style.top="0";
-        } else {
-            document.getElementById("bar white").style.top="-50px";
-        }
-    }
-</script>
+
+    
+<script src="https://kit.fontawesome.com/c00d2ad80d.js" crossorigin="anonymous"></script>
 </html>
